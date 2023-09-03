@@ -6,6 +6,7 @@ import About from '@/components/About/About'
 import Skills from '@/components/Skills/skills'
 import Projects from '@/components/Projects/Projects'
 import Contact from '@/components/Contact/Contact'
+import Blog from './blogs'
 export default function Home() {
   return (
     
@@ -23,6 +24,7 @@ export default function Home() {
         <div><About/></div>
         <div><Skills/></div>
         <div><Projects/></div>
+        <div><Blog/></div>
         <div><Contact/></div>
         
 
