@@ -29,14 +29,14 @@ const Blog: React.FC = () => {
     getDevToPosts();
   }, []);
 
-  const slicedPosts = posts.slice(0, 4); // Slice the posts to display only 4 of them
+  const slicedPosts = posts.slice(0, 10); // Slice the posts to display only 4 of them
 
   return (
     <div className="max-w-[1240px] mx-auto px-2 py-16">
       <p className="text-xl mb-4 tracking-widest uppercase text-[#5651e5]">Blog Posts</p>
       <h2 className="py-4 text-gray-600">What I&apos;ve written!</h2>{/* Center the carousel container */}
         <div className="carousel-container"> {/* This container will be centered */}
-          <Carousel showArrows={true} showStatus={false} showIndicators={false} showThumbs={false} emulateTouch={true}>
+          <Carousel showArrows={true} showStatus={false} showIndicators={true} showThumbs={false} emulateTouch={true}>
             {slicedPosts.map((post) => (
               <div className="bg-white p-4 rounded-lg shadow-md" key={post.id}>
                 <img src={post.cover_image} alt={post.title} className="w-full h-auto" />
