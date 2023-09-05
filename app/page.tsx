@@ -21,7 +21,7 @@ export default function Home() {
           <link rel="icon" href="/public/assets/avatartion.svg"/>
         </Head>
         <div><Navbar/></div>
-        <div className='px-2 font-poppins'>
+        <div className='px-2'>
         <div><Main/></div>
         <div><About/></div>
         <div><Skills/></div>

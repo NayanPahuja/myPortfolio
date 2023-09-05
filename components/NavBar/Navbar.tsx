@@ -46,19 +46,19 @@ function Navbar() {
         <div>
           <ul className='hidden md:flex'>
             <Link href={'/#Home'}>
-              <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
+              <li className='ml-10 text-sm uppercase hover:text-[#5651e5] border-b'>Home</li>
             </Link>
             <Link href={'/#about'}>
-              <li className='ml-10 text-sm uppercase hover:border-b'>About</li>
+              <li className='ml-10 text-sm uppercase hover:text-[#5651e5] border-b'>About</li>
             </Link>
             <Link href={'/#Skills'}>
-              <li className='ml-10 text-sm uppercase hover:border-b'>Skills</li>
+              <li className='ml-10 text-sm uppercase hover:text-[#5651e5] border-b'>Skills</li>
             </Link>
             <Link href={'/#Projects'}>
-              <li className='ml-10 text-sm uppercase hover:border-b'>Projects</li>
+              <li className='ml-10 text-sm uppercase hover:text-[#5651e5] border-b'>Projects</li>
             </Link>
             <Link href={'/#contact'}>
-              <li className='ml-10 mr-5 text-sm uppercase hover:border-b'>Contact</li>
+              <li className='ml-10 mr-5 text-sm uppercase hover:text-[#5651e5] border-b'>Contact</li>
             </Link>
           </ul>
           <div onClick={handleNav} className='md:hidden'>
@@ -74,7 +74,7 @@ function Navbar() {
 
           
           <div className='flex w-full items-center justify-between'>
-            <Link href={'/'}>
+            <Link href={'/#Home'}>
           <Image src={ImageAsset} alt='/' width={87} height={35}/>
 
             </Link>
@@ -125,7 +125,7 @@ function Navbar() {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in-out duration-300'>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 placeholder:ease-in-out duration-300'>
                       <FaGithub />
                     </div>
                   </a>

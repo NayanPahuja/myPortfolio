@@ -2,11 +2,18 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import { Roboto } from 'next/font/google'
+import { Montserrat } from 'next/font/google'
 
 const roboto = Roboto({
   weight: '400',
   subsets: ['latin'],
   display: 'swap',
+})
+
+const montserrat = Montserrat({
+  weight: "600",
+  subsets: ['latin'],
+  display: 'swap'
 })
 
 // const inter = Inter({ subsets: ['latin'] })y
@@ -24,7 +31,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={roboto.className}>{children}</body>
+      <body className={montserrat.className}>{children}</body>
     </html>
   )
 }
