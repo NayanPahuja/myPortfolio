@@ -20,7 +20,7 @@ const About = () => {
             <p className='py-2 text-gray-600 text-justify'>📊 Beyond coding, I&apos;ve taken on roles as an event coordinator for E-Summit&apos;23, leading a team of over 250 individuals, and managing marketing and public relations for the Thapar Food Festival.</p>
 
             <p className='py-2 text-gray-600 text-justify'>
-            📝 I&apos;m also passionate about technical writing, with a collection of 100+ articles on data structures and algorithms on dev.to, where I&apos;ve gained a following of 1500+ readers.
+            📝 I&apos;m also passionate about technical writing, with a collection of 100+ articles on data structures and algorithms on dev.to, where I&apos;ve gained a following of 1800+ readers.
 
             🌐 Whether it&apos;s web development, app creation, event coordination, or problem solving, I&apos;m here to contribute to the tech world with a blend of skills and knowledge. Let&apos;s explore the digital realm together! 👨‍💻🌐
             </p>
