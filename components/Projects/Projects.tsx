@@ -3,9 +3,9 @@ import Image from 'next/image'
 import VideoChatAsset from '/public/assets/VideoChatLObby.png'
 import ProjectItem from '../projectConstants'
 import GameAsset from '/public/assets/FULL STACK LEETCODE CLONE.png'
-import TwitterAsset from '/public/assets/FLUTTER TWITTER CLONE.png'
+// import TwitterAsset from '/public/assets/FLUTTER TWITTER CLONE.png'
 import LeetCodeAsset from '/public/assets/Game01.png'
-
+import GitAsset from '/public/assets/verFlow.png'
 
 const Projects = () => {
   return (
@@ -35,10 +35,10 @@ const Projects = () => {
             tech='Godot Engine'
           />
           <ProjectItem
-            title='Twitter Clone'
-            backgroundImg={TwitterAsset}
-            projectUrl='https://github.com/NayanPahuja/TwitterClone'
-            tech='Flutter, Appwrite'
+            title='verFlow'
+            backgroundImg={GitAsset}
+            projectUrl='https://github.com/NayanPahuja/verFlow'
+            tech='Python, Shell'
           />
 
 
